@@ -4,6 +4,7 @@
 
 #banner h1 {
   text-align: center;
+  color: #330000;
 }
 
 body {
@@ -16,6 +17,22 @@ body {
   min-height: 500px;
 }
 
+#sidebar h4 {
+  color: #FF99CD;
+}
+
+#sidebar h3 {
+  color: #660034;
+}
+
+#sidebar p {
+  color: #d3d3d3;
+}
+
 .col-md-9 {
   padding-left: 80px;
+}
+
+#main h2, h4, p, ol {
+  color: #330000;
 }
