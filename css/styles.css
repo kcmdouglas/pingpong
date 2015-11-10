@@ -1,13 +1,17 @@
 .jumbotronBackground {
-  background-color: pink;
+  background-color: #FF6666;
 }
 
 #banner h1 {
   text-align: center;
 }
 
+body {
+  background-color: #FF9A66;
+}
+
 .col-md-2 {
-  background-color: green;
+  background-color: #993367;
   min-width: 240px;
   min-height: 500px;
 }
