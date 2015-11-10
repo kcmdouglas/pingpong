@@ -6,7 +6,12 @@
   text-align: center;
 }
 
-.col-md-3 {
+.col-md-2 {
   background-color: green;
+  min-width: 240px;
   min-height: 500px;
+}
+
+.col-md-9 {
+  padding-left: 80px;
 }
