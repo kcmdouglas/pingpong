@@ -30,9 +30,9 @@ body {
 }
 
 .col-md-9 {
-  padding-left: 80px;
+  padding-left: 60px;
 }
 
-#main h2, h4, p, ol {
+#main h2, h4, p, ol, label, ul {
   color: #330000;
 }
