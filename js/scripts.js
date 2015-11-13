@@ -8,7 +8,11 @@ var pingPong = function(userNumber) {
 
 $(function() {
   $("form#game").submit(function(event) {
+    $("#outputList").empty();
 
+    var number = parseInt($("#userNumber").val())
+    var output = pingPong(number)
+    
     event.preventDefault();
   });
 });
