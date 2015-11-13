@@ -5,3 +5,10 @@ var pingPong = function(userNumber) {
     return false;
   }
 };
+
+$(function() {
+  $("form#game").submit(function(event) {
+
+    event.preventDefault();
+  });
+});
