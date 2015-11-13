@@ -4,4 +4,4 @@ var pingPong = function(userNumber) {
   } else {
     return false;
   }
-}
+};
