@@ -7,4 +7,8 @@ describe('pingPong', function() {
     expect(pingPong(10)).to.equal(true);
   });
 
+  it("is true for a number that is divisible by 15", function() {
+    expect(pingPong(30)).to.equal.(true);
+  });
+
 });
