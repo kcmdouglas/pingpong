@@ -16,7 +16,7 @@ A user can enter a number, and my application will create a list counting upward
 
 If you wish to run this application, please clone the repository from this site and open index.html in your browser:
 
-    [https://github.com/kcmdouglas/pingpong](https://github.com/kcmdouglas/pingpong)
+    https://github.com/kcmdouglas/pingpong
 
 
 ### Legal
