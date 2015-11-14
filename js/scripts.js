@@ -1,18 +1,14 @@
 var pingPongType = function(i) {
-  if (i % 15 === 0) {
-      return "pingpong";
-  } else if (i % 5 === 0) {
-      return "pong";
-  } else {
-      return "ping";
-  }
-}
-
-var isPingPong = function(i) {
   if ((i % 5 === 0) || (i % 3 === 0) || (i % 15 === 0)) {
-    return pingPongType(i);
+    if (i % 15 === 0) {
+        return "pingpong";
+    } else if (i % 5 === 0) {
+        return "pong";
+    } else {
+        return "ping";
+    }
   } else {
-    return false;
+    return i;
   }
 }
 
@@ -21,14 +17,11 @@ $(function() {
     $('#outputList').empty();
 
     var number = parseInt($("#userNumber").val());
-    var whichPingPong = pingPongType(i)
+
 
     for (var i = 1; i <= number; i += 1) {
-      if (isPingPong(i)) {
-        $('#outputList').append("<li>" + whichPingPong + "</li>");
-      } else {
-        $('#outputList').append("<li>" + i + "</li>");
-      }
+      var output = pingPongType(i)
+      $('#outputList').append("<li>" + output + "</li>")
     }
     event.preventDefault();
   });
