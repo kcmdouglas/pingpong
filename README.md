@@ -21,6 +21,6 @@ If you wish to install, please clone the repository from this site:
 
 ### Legal
 
-Copyright (c) 2015 **Kassidy Malone-Douglas**
+MIT License. Copyright (c) 2015 **Kassidy Malone-Douglas**
 
 See [LICENSE](https://github.com/kcmdouglas/pingpong/blob/master/LICENSE) file.
