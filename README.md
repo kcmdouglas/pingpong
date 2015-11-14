@@ -1,9 +1,9 @@
 # Ping Pong
-============
+
 ## Epicodus Level Two Placement Test
 ------------------------------------
 
-#### By *Kassidy Malone-Douglas*
+#### By: *Kassidy Malone-Douglas*
 
 ## Description
 
@@ -17,12 +17,10 @@ A user can enter a number, and my application will create a list counting upward
 ## Installation
 
 If you wish to run this application, please clone the repository from this site:
->https://github.com/kcmdouglas/pingpong
+  https://github.com/kcmdouglas/pingpong
 
 
 ### Legal
-
-*{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
 
 Copyright (c) 2015 **Kassidy Malone-Douglas**
 
