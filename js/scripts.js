@@ -17,12 +17,18 @@ $(function() {
     $('#outputList').empty();
 
     var number = parseInt($("#userNumber").val());
+    var warning = "Whoops! Please enter an integer!"
 
+    if (Number.isNaN(number) === true) {
+      alert(warning);
+    }
 
     for (var i = 1; i <= number; i += 1) {
       var output = pingPongType(i)
       $('#outputList').append("<li>" + output + "</li>")
     }
+
+
     event.preventDefault();
   });
 });
