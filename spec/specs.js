@@ -8,14 +8,7 @@ describe('pingPongType', function() {
   it("returns pingpong for a number that is divisible by 3 and 5", function() {
     expect(pingPongType(30)).to.equal("pingpong")
   });
-});
-
-
-describe('isPingPong', function() {
-  it("returns pingPongType for a number divisible by 3, 5, or 15", function() {
-    expect(isPingPong(6)).to.equal("ping");
-  });
-  it("returns false for a number not divisible by 3, 5, or 15", function() {
-    expect(isPingPong(7)).to.equal(false);
+  it("returns an input number if the number is not divisble by 3 or 5", function() {
+    expect(pingPongType(7)).to.equal(7);
   });
 });
