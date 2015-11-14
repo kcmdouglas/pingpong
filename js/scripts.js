@@ -17,7 +17,7 @@ $(function() {
     $('#outputList').empty();
 
     var number = parseInt($("#userNumber").val());
-    var warning = "Whoops! Please enter an integer!"
+    var warning = "Whoops! Please enter a number (decimals will be rounded)!"
 
     if (Number.isNaN(number) === true) {
       alert(warning);
@@ -27,7 +27,7 @@ $(function() {
       var output = pingPongType(i)
       $('#outputList').append("<li>" + output + "</li>")
     }
-    
+
     event.preventDefault();
   });
 });
