@@ -27,8 +27,7 @@ $(function() {
       var output = pingPongType(i)
       $('#outputList').append("<li>" + output + "</li>")
     }
-
-
+    
     event.preventDefault();
   });
 });
